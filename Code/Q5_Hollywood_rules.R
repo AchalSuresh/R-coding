@@ -1,8 +1,8 @@
 # set your working directory
-setwd("C:/R-work")
+
 
 # read the data in Hollywood_rules into data.frame called Hollywood_rules
-Hollywood_rules <- read_excel("Hollywood_rules.xls", sheet = "Exhibit 1")
+Hollywood_rules <- read_excel("./R-coding/Data/Hollywood_rules.xls", sheet = "Exhibit 1")
 
 #Create a dummy variable to differentiate comedy films from noncomedy films
 Hollywood_rules$comedyYes <- 0

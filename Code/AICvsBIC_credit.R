@@ -1,5 +1,5 @@
 #Task 1. Import the dataset
-credit <- read.csv("C:/Users/achal/Desktop/Carey/Data Analytics/Data/Credit.csv")
+credit <- read.csv("./R-coding/Data/Credit.csv")
 
 #Task 2.
 

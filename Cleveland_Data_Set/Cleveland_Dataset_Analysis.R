@@ -39,10 +39,13 @@ heart.data$num<-as.factor(heart.data$num)
 set.seed(1)
 
 #Splitting the data into training and testing
-testing = sample(1:nrow(heart.data), 99)
+testing = sample(1:nrow(heart.data), 89)
 training = -testing
 testing_data = heart.data[testing,]
 training_data = heart.data[training,]
+
+logreg.fit <- glm(num~.,data=training_data,family=binomial)
+summary(logreg.fit)
 
 # creating matrixes and vector of response variables for training data
 factors_training = model.matrix(num~.,data=training_data)[,-1]

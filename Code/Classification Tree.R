@@ -1,5 +1,7 @@
 # Loading the dataset Auto and ommiting Na values
-Auto <- read.csv("C:/Users/achal/Desktop/Carey/Data Analytics/Code/Auto(2).csv" ,na.strings = "?")
+Auto <- read.csv("./R-coding/Data/Auto.csv" ,na.strings = "?")
+
+
 
 Auto2=na.omit(Auto)
 

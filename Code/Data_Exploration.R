@@ -3,7 +3,7 @@ install.packages("readxl")
 # Install package to read excel file
 library(readxl)
 # Load the excel sheet into R
-hollywood <- read_excel("C:/Users/achal/Desktop/Carey/Data Analytics/Data/KEL702-XLS-ENG-1740.XLS", sheet="Exhibit 1")
+hollywood <- read_excel("./R-coding/Data/KEL702-XLS-ENG-1740.XLS", sheet="Exhibit 1")
 
 #Summarize the information in the file
 

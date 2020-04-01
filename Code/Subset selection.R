@@ -1,5 +1,5 @@
 #Load the data into Bikeshare
-BikeShare <- read.csv("C:/Users/achal/Desktop/Carey/Data Analytics/Data/Bikeshare.csv")
+BikeShare <- read.csv("./R-coding/Data/Bikeshare.csv")
 
 #Adding Weekend Column to the data set
 BikeShare$Weekend <- 0

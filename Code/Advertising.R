@@ -1,5 +1,5 @@
 # read the data into an R data.frame called my.ad
-my.ad<-read.csv("C:/Users/achal/Desktop/Carey/Data Analytics/Data/Advertising.csv")
+my.ad<-read.csv("./R-coding/Data/Advertising.csv")
 
 ## Before we do regression, here are few commands to review the data a bit
 

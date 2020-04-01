@@ -2,7 +2,7 @@
 # Plotting data using R
 # Example: Film death counts
 # Set your working directory. In my case, it is "C:/R-Work".
-setwd("C:/Users/achal/Desktop/Carey/Data Analytics/Data")
+setwd("./R-coding/Data")
 # Read the data from the file "filmdeathcounts.csv" into a data frame called "BodyCountData". 
 BodyCountData = read.csv("filmdeathcounts.csv")
 # Let's change the names of the columns in the data frame to shorter and more descriptive names. We use "colnames" function and assign a vector of new names. The function c() indicates the list of names is a vector.

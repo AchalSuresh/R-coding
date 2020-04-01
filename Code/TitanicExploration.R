@@ -5,7 +5,7 @@
 # As we enter commands in the command line, you can copy-paste those into an "R Script," which you could reload and use later if you want to. In R Studio, click the new document button in the top-left corner and select "R Script".
 
 # Next we want R to read the data set we want to work with. In R Studio, on the top-right pane, click "Import Dataset." Browse to titanic.csv and select it. Click "Import". 
-titanic <- read.csv("C:/Users/achal/Desktop/Carey/Data Analytics/Data/titanic.csv")
+titanic <- read.csv("./R-coding/Data/titanic.csv")
 # When R reads a .csv file, it stores the data into an object type called a "data frame." Let's check what types of variables we have in titanic. We use "str" command.
 str(titanic)
 # Let's summarize the information in the Survived column. We can use "titanic$Survived" to refer to the "Survived" column of "titanic" data frame. The "table" function will then go through the column and count the occurrence of each value (in this case how many times 0s and 1s occurred in the "Survived" column, with 0 corresponding to a passenger who died and 1 corresponding to a passenger who survived).

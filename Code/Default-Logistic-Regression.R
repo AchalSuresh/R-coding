@@ -80,8 +80,8 @@ Default.v3<-Default
 
 #Divide balance into three categories: low balance, med balance, high balance
 Default.v3$balance_cat<-"High"
-Default.v3$balance_cat[Default.v2$balance<=900]<-"Low"
-Default.v3$balance_cat[(Default.v2$balance>900) & (Default.v2$balance<=1800)]<-"Med"
+Default.v3$balance_cat[Default$balance<=900]<-"Low"
+Default.v3$balance_cat[(Default$balance>900) & (Default$balance<=1800)]<-"Med"
 
 #Turn the balance category column into factors
 Default.v3$balance_cat<-as.factor(Default.v3$balance_cat)

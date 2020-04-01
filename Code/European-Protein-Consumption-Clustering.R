@@ -2,7 +2,7 @@
 
 # After setting your working directory, read the data from protein.csv
 # into a data.frame called food
-food <- read.csv( "C:/Users/achal/Desktop/Carey/Data Analytics/Data/protein.csv" )
+food <- read.csv( "./R-coding/Data/protein.csv" )
 
 # check the data 
 View(food)
